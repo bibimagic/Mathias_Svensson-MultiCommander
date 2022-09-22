@@ -15,15 +15,17 @@ Install-ChocolateyPackage @packageArgs
 
 
 if (Get-OSArchitectureWidth -Compare '32') {
-	$ZipFileFullPath = "$env:temp\MultiCommander_win32_Update_(12.1.0.2906).zip"
+	$ZipFileFullPath32or64 = "$env:temp\MultiCommander_win32_Update_(12.1.0.2906).zip"
+	$ExtractFolder = "C:\Program Files\MultiCommander\"
 } elseif (Get-OSArchitectureWidth -Compare '64') {
-	$ZipFileFullPath = "$env:temp\MultiCommander_x64_Update_(12.1.0.2906).zip"
+	$ZipFileFullPath32or64 = "$env:temp\MultiCommander_x64_Update_(12.1.0.2906).zip"
+	$ExtractFolder64 = "C:\Program Files\MultiCommander (x64)\"
 }
 
 
 $updPackageArgs = @{
   PackageName			=	'multicommander.update'
-  FileFullPath			=	"$ZipFileFullPath"
+  FileFullPath			=	"$ZipFileFullPath32or64"
   Url					=	"http://multicommander.com/files/updates/MultiCommander_win32_Update_(12.1.0.2906).zip"
   Checksum				=	'917274E87D907D1D436A4614B0765A7898C23417'
   ChecksumType			=	'SHA1'
@@ -36,9 +38,7 @@ Get-ChocolateyWebFile @updPackageArgs
 
 
 if (Test-Path -Path "$env:temp\MultiCommander_win32_Update_(12.1.0.2906).zip" -PathType Leaf) {
-	$ExtractFolder = "C:\Program Files\MultiCommander\"
-	Get-ChocolateyUnzip -FileFullPath $ZipFileFullPath -Destination $ExtractFolder -PackageName 'multicommander.update' -Force
+	Get-ChocolateyUnzip -FileFullPath $ZipFileFullPath32or64 -Destination $ExtractFolder -PackageName 'multicommander.update' -Force
 } elseif (Test-Path -Path "$env:temp\MultiCommander_x64_Update_(12.1.0.2906).zip" -PathType Leaf) {
-	$ExtractFolder64 = "C:\Program Files\MultiCommander (x64)\"
-	Get-ChocolateyUnzip -FileFullPath64 $ZipFileFullPath -Destination $ExtractFolder64 -PackageName 'multicommander.update' -Force
+	Get-ChocolateyUnzip -FileFullPath64 $ZipFileFullPath32or64 -Destination $ExtractFolder64 -PackageName 'multicommander.update' -Force
 }
