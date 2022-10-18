@@ -10,12 +10,20 @@
     <projectUrl>http://multicommander.com/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/bibimagic/Mathias_Svensson-MultiCommander/MultiCommander.png</iconUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <summary>Multi Commander is a multi-tabbed file manager and is an alternative to the standard Windows Explorer. It uses the very popular and efficient dual-panel layout.
+    <summary>Multi Commander is a multi-tabbed file manager and is an alternative to the standard Windows Explorer. It uses the very popular and efficient dual-panel layout.</summary>
+    <description>Multi Commander is a multi-tabbed file manager and is an alternative to the standard Windows Explorer. It uses the very popular and efficient dual-panel layout.
 
 Multi Commander has everything you need in your daily work with files to increase your speed and efficiency.
 
-It has all the standard features that any file manager has, like copy, move, rename, view. But Multi Commander's big strengths are the special features that allow you to accomplish advanced tasks with ease. Tasks such as Auto-unpacking; Auto-sorting; Browsing inside archives; Editing the Windows Registry and accessing FTP; Searching for and Viewing files and pictures. There is also powerful, built-in Scripting support that allows you automate many tasks and expand its functionality. It allows you to do everything from the keyboard using shortcuts so that you can work quickly and efficiently.</summary>
-    <description>Fast and Efficient File Management
+It has all the standard features that any file manager has, like copy, move, rename, view. But Multi Commander's big strengths are the special features that allow you to accomplish advanced tasks with ease. Tasks such as Auto-unpacking; Auto-sorting; Browsing inside archives; Editing the Windows Registry and accessing FTP; Searching for and Viewing files and pictures. There is also powerful, built-in Scripting support that allows you automate many tasks and expand its functionality. It allows you to do everything from the keyboard using shortcuts so that you can work quickly and efficiently.
+
+
+Features
+
+Multi Commander packed with so many features
+
+
+Fast and Efficient File Management
     Dual pane tabbed interface. Work with multiple folders open.
     Caching that enable fast file browsing. Easily handle folders with many thousands of files.
     Browse with ease. Show files in Detailed, List, or Thumbnail modes. Use powerful filters to limit what you want to view.
@@ -57,7 +65,7 @@ Network Features
     Fixes issue when navigating into subfolder in a zip after doing it previously in another zip
     MC.FileSerch.Search customcommand now works again
     4 Stability issues fix</releaseNotes>
-    <tags>MultiCommander filemanager dual-panel commander</tags>
+    <tags>MultiCommander commander filemanager file manager explorer dual-panel multi-tabbed dualpanel multitabbed</tags>
 	<packageSourceUrl>https://github.com/bibimagic/Mathias_Svensson-MultiCommander</packageSourceUrl>
 	<docsUrl>http://multicommander.com/docs/</docsUrl>
 	<mailingListUrl>http://multicommander.com/contact</mailingListUrl>
