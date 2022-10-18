@@ -55,7 +55,7 @@ Network Features
     FTP viewed as a virtual filesystem (with SSL/TLS support).
     Browse network servers and shares.</description>
     <copyright>Mathias Svensson, Sweden</copyright>
-	<releaseNotes>Mostly stability fixes but also some new minor feature
+    <releaseNotes>Mostly stability fixes but also some new minor feature
 
 20+ Changes in 12.5 some of the are
 
@@ -66,9 +66,9 @@ Network Features
     MC.FileSerch.Search customcommand now works again
     4 Stability issues fix</releaseNotes>
     <tags>MultiCommander commander filemanager file manager explorer dual-panel multi-tabbed dualpanel multitabbed</tags>
-	<packageSourceUrl>https://github.com/bibimagic/Mathias_Svensson-MultiCommander</packageSourceUrl>
-	<docsUrl>http://multicommander.com/docs/</docsUrl>
-	<mailingListUrl>http://multicommander.com/contact</mailingListUrl>
-	<bugTrackerUrl>http://multicommander.com/support/issue</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/bibimagic/Mathias_Svensson-MultiCommander</packageSourceUrl>
+    <docsUrl>http://multicommander.com/docs/</docsUrl>
+    <mailingListUrl>http://multicommander.com/contact</mailingListUrl>
+    <bugTrackerUrl>http://multicommander.com/support/issue</bugTrackerUrl>
   </metadata>
 </package>
