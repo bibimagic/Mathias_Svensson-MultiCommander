@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>multicommander</id>
+    <version>13.1.0.2955</version>
+    <title>MultiCommander (Install)</title>
+    <authors>Mathias Svensson</authors>
+    <owners>bibimagic</owners>
+    <licenseUrl>https://multicommander.com/Docs/License</licenseUrl>
+    <projectUrl>https://multicommander.com/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/bibimagic/Mathias_Svensson-MultiCommander/MultiCommander.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <summary>Multi Commander is a multi-tabbed file manager and is an alternative to the standard Windows Explorer. It uses the very popular and efficient dual-panel layout.</summary>
+    <description>Multi Commander is a multi-tabbed file manager and is an alternative to the standard Windows Explorer. It uses the very popular and efficient dual-panel layout.
+
+Multi Commander has everything you need in your daily work with files to increase your speed and efficiency.
+
+It has all the standard features that any file manager has, like copy, move, rename, view. But Multi Commander's big strengths are the special features that allow you to accomplish advanced tasks with ease. Tasks such as Auto-unpacking; Auto-sorting; Browsing inside archives; Editing the Windows Registry and accessing FTP; Searching for and Viewing files and pictures. There is also powerful, built-in Scripting support that allows you automate many tasks and expand its functionality. It allows you to do everything from the keyboard using shortcuts so that you can work quickly and efficiently.
+
+
+Features
+
+Multi Commander packed with so many features
+
+
+Fast and Efficient File Management
+    Dual pane tabbed interface. Work with multiple folders open.
+    Caching that enable fast file browsing. Easily handle folders with many thousands of files.
+    Browse with ease. Show files in Detailed, List, or Thumbnail modes. Use powerful filters to limit what you want to view.
+    Background work for all tasks that take time to finish, allowing you to continue working without interruption.
+    Fast Operation. Use the mouse and drag and drop or use quick keyboard commands for all tasks.
+    Remember all your selections when you return from browsing another location in the filesystem.
+    Browse archives (Zip, 7-Zip, Rar, Tar, gz, bz2 )
+    Powerful and flexible file search.
+    View and change file permissions. Take ownership of files.
+
+Customizable and Extensible
+    Customize layout and colors to suit your styling needs.
+    Powerful script engine allowing you to create scripts to automate tasks.
+    Extensions and plug-ins that expand the functionality of Multi Commander.
+    Open API for developers (SDK) to create extensions and plug-ins.
+
+Multimedia
+    Picture tools to convert/rotate images, view/remove EXIF tags, adjust EXIF Date.
+    Internal picture viewer for Jpg, Gif, Png, Bmp, Tiff and many RAW formats.
+    Show movie information from IMDB and Rotten Tomatoes as extra columns on your movie files.
+    Audio tools to view audio file properties, view and/or edit MP3 Tags.
+
+Advanced
+    File Operation plug-ins that can automatically sort or unpack files when they are moved or copied.
+    MultiRename tool for the fast and safe renaming of multiple files/Folders: rule-based and supports Undo.
+    File viewer that lets you view files of any size with minimal memory usage. View as ASCII/Unicode/UTF8/Binary and Hex.
+
+Network Features
+    FTP viewed as a virtual filesystem (with SSL/TLS support).
+    Browse network servers and shares.</description>
+    <copyright>2021  / Multi Commander / Mathias Svensson</copyright>
+    <releaseNotes>Release v13.0 ( Build 2953 ) ( 20-Jul-2023 )
+
++ 55 Changes
+
+ ADDED - Device that are marked as offline will now be skipped on a couple of situations. 
+ ADDED - Dialog warning about not enougth free space when starting a copy operation will ow show how mush is needed and how much additional free space is needed 
+ ADDED - During start MC will try to ask Windows if a Remote device is availible. Sometimes Windows will report as availible even if it is not.
+          But when it does report it as disconnected. MC will not hang waiting for a timeout at startup.
+ ADDED - When Previewing images in panel the image will now be fetch using WIC ( Windows Imaging component ) 
+         instead of Windows thumbnail system since the thumbnail system always returned a squered image.
+ ADDED - Data Preview in panel can now take focus. Allowing for wheelzoom when preview is showing text
+ ADDED - Better dark mode support for Data Preview
+ ADDED - Foldertree can now customize font size
+ ADDED - Middle click on folder in tree will open folder on other panel
+ ADDED - Foldertree expand/collapse icon changed
+ FIXED - When renaming and file is open by other process, MC will now have an action to retry in the error dialog.
+ FIXED - Issue when canceling FTP quick connect dialog
+ FIXED - Editing large QWORD Regvalue in REG:
+ FIXED - Language pack submit now works again
+ FIXED - Packing 7z archive, The progress bar will now work better.
+         However it will not show current file being pack since the newer 7z will packs files in parallell
+ ADDED - DataPreview can now also be shown inside a Panel
+ ADDED - Dropping file/folder on tab header that tab will go to that folder and file
+ ADDED - Dropping file/folder on empty tab area and a new tab will be opened for that folder and file
+ CHANGE- PASV is now default for new FTP connections
+ FIXED - FileOperation Progress dialog will now again show if the file operation is Copy/Move/... in title bar
+ FIXED - FileOperation Error dialogs will now respect the option to not auto scale UI
+ FIXED - 10 Stability Issues</releaseNotes>
+    <tags>MultiCommander commander filemanager file manager explorer dual-panel multi-tabbed</tags>
+    <packageSourceUrl>https://github.com/bibimagic/Mathias_Svensson-MultiCommander</packageSourceUrl>
+    <docsUrl>https://multicommander.com/docs/</docsUrl>
+    <mailingListUrl>https://multicommander.com/contact</mailingListUrl>
+    <bugTrackerUrl>https://multicommander.com/support/issue</bugTrackerUrl>
+  </metadata>
+</package>
