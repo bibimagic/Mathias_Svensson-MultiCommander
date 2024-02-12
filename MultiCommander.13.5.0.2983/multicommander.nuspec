@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>multicommander</id>
+    <version>13.5.0.2983</version>
+    <title>MultiCommander (Install)</title>
+    <authors>Mathias Svensson</authors>
+    <owners>bibimagic</owners>
+    <licenseUrl>https://multicommander.com/Docs/License</licenseUrl>
+    <projectUrl>https://multicommander.com/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/bibimagic/Mathias_Svensson-MultiCommander/MultiCommander.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <summary>Multi Commander is a multi-tabbed file manager and is an alternative to the standard Windows Explorer. It uses the very popular and efficient dual-panel layout.</summary>
+    <description>Multi Commander is a multi-tabbed file manager and is an alternative to the standard Windows Explorer. It uses the very popular and efficient dual-panel layout.
+
+Multi Commander has everything you need in your daily work with files to increase your speed and efficiency.
+
+It has all the standard features that any file manager has, like copy, move, rename, view. But Multi Commander's big strengths are the special features that allow you to accomplish advanced tasks with ease. Tasks such as Auto-unpacking; Auto-sorting; Browsing inside archives; Editing the Windows Registry and accessing FTP; Searching for and Viewing files and pictures. There is also powerful, built-in Scripting support that allows you automate many tasks and expand its functionality. It allows you to do everything from the keyboard using shortcuts so that you can work quickly and efficiently.
+
+
+Features
+
+Multi Commander packed with so many features
+
+
+Fast and Efficient File Management
+    Dual pane tabbed interface. Work with multiple folders open.
+    Caching that enable fast file browsing. Easily handle folders with many thousands of files.
+    Browse with ease. Show files in Detailed, List, or Thumbnail modes. Use powerful filters to limit what you want to view.
+    Background work for all tasks that take time to finish, allowing you to continue working without interruption.
+    Fast Operation. Use the mouse and drag and drop or use quick keyboard commands for all tasks.
+    Remember all your selections when you return from browsing another location in the filesystem.
+    Browse archives (Zip, 7-Zip, Rar, Tar, gz, bz2 )
+    Powerful and flexible file search.
+    View and change file permissions. Take ownership of files.
+
+Customizable and Extensible
+    Customize layout and colors to suit your styling needs.
+    Powerful script engine allowing you to create scripts to automate tasks.
+    Extensions and plug-ins that expand the functionality of Multi Commander.
+    Open API for developers (SDK) to create extensions and plug-ins.
+
+Multimedia
+    Picture tools to convert/rotate images, view/remove EXIF tags, adjust EXIF Date.
+    Internal picture viewer for Jpg, Gif, Png, Bmp, Tiff and many RAW formats.
+    Show movie information from IMDB and Rotten Tomatoes as extra columns on your movie files.
+    Audio tools to view audio file properties, view and/or edit MP3 Tags.
+
+Advanced
+    File Operation plug-ins that can automatically sort or unpack files when they are moved or copied.
+    MultiRename tool for the fast and safe renaming of multiple files/Folders: rule-based and supports Undo.
+    File viewer that lets you view files of any size with minimal memory usage. View as ASCII/Unicode/UTF8/Binary and Hex.
+
+Network Features
+    FTP viewed as a virtual filesystem (with SSL/TLS support).
+    Browse network servers and shares.</description>
+    <copyright>2021  / Multi Commander / Mathias Svensson</copyright>
+    <releaseNotes>v13.5 Release ( Build 2983 ) ( 26-Jan-2024 )
+ 
+ 33+ Changes - Stability release
+
+ FIXED - Issue opening rar files
+ FIXED - Issue with MultiSctipt function StrFind
+ ADDED - Experimental support for playing mp3. (Command found under File menu, or CustomCommand MC.PlayAudio/MC.StopAudio)
+ CHANGE- How some items are loaded during startup
+ FIXED - Stability issue with unrar
+ FIXED - 13 Stability issues</releaseNotes>
+    <tags>MultiCommander commander filemanager file manager explorer dual-panel multi-tabbed</tags>
+    <packageSourceUrl>https://github.com/bibimagic/Mathias_Svensson-MultiCommander</packageSourceUrl>
+    <docsUrl>https://multicommander.com/Docs/WhatIsMultiCommander</docsUrl>
+    <mailingListUrl>https://multicommander.com/contact</mailingListUrl>
+    <bugTrackerUrl>https://multicommander.com/support/issue</bugTrackerUrl>
+  </metadata>
+</package>
