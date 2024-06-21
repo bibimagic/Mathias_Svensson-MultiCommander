@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>multicommander</id>
+    <version>14.0.0.3016</version>
+    <title>MultiCommander (Install)</title>
+    <authors>Mathias Svensson</authors>
+    <owners>bibimagic</owners>
+    <licenseUrl>https://multicommander.com/Docs/License</licenseUrl>
+    <projectUrl>https://multicommander.com/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/bibimagic/Mathias_Svensson-MultiCommander/MultiCommander.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <summary>Multi Commander is a multi-tabbed file manager and is an alternative to the standard Windows Explorer. It uses the very popular and efficient dual-panel layout.</summary>
+    <description>Multi Commander is a multi-tabbed file manager and is an alternative to the standard Windows Explorer. It uses the very popular and efficient dual-panel layout.
+
+Multi Commander has everything you need in your daily work with files to increase your speed and efficiency.
+
+It has all the standard features that any file manager has, like copy, move, rename, view. But Multi Commander's big strengths are the special features that allow you to accomplish advanced tasks with ease. Tasks such as Auto-unpacking; Auto-sorting; Browsing inside archives; Editing the Windows Registry and accessing FTP; Searching for and Viewing files and pictures. There is also powerful, built-in Scripting support that allows you automate many tasks and expand its functionality. It allows you to do everything from the keyboard using shortcuts so that you can work quickly and efficiently.
+
+
+Features
+
+Multi Commander packed with so many features
+
+
+Fast and Efficient File Management
+    Dual pane tabbed interface. Work with multiple folders open.
+    Caching that enable fast file browsing. Easily handle folders with many thousands of files.
+    Browse with ease. Show files in Detailed, List, or Thumbnail modes. Use powerful filters to limit what you want to view.
+    Background work for all tasks that take time to finish, allowing you to continue working without interruption.
+    Fast Operation. Use the mouse and drag and drop or use quick keyboard commands for all tasks.
+    Remember all your selections when you return from browsing another location in the filesystem.
+    Browse archives (Zip, 7-Zip, Rar, Tar, gz, bz2 )
+    Powerful and flexible file search.
+    View and change file permissions. Take ownership of files.
+
+Customizable and Extensible
+    Customize layout and colors to suit your styling needs.
+    Powerful script engine allowing you to create scripts to automate tasks.
+    Extensions and plug-ins that expand the functionality of Multi Commander.
+    Open API for developers (SDK) to create extensions and plug-ins.
+
+Multimedia
+    Picture tools to convert/rotate images, view/remove EXIF tags, adjust EXIF Date.
+    Internal picture viewer for Jpg, Gif, Png, Bmp, Tiff and many RAW formats.
+    Show movie information from IMDB and Rotten Tomatoes as extra columns on your movie files.
+    Audio tools to view audio file properties, view and/or edit MP3 Tags.
+
+Advanced
+    File Operation plug-ins that can automatically sort or unpack files when they are moved or copied.
+    MultiRename tool for the fast and safe renaming of multiple files/Folders: rule-based and supports Undo.
+    File viewer that lets you view files of any size with minimal memory usage. View as ASCII/Unicode/UTF8/Binary and Hex.
+
+Network Features
+    FTP viewed as a virtual filesystem (with SSL/TLS support).
+    Browse network servers and shares.</description>
+    <copyright>2024  / Multi Commander / Mathias Svensson</copyright>
+    <releaseNotes>v14.0 ( Build 3016 ) ( 15-Jun-2024 )
+  
+  190+ Changes 
+
+   ** New Feature **
+   * Auto Handing of copy/move/delete errors
+   * Show Error report after copy/move/delete operation
+   * Play audio files
+   * Scriptable columns
+   * And more, 190+ Changes
+
+ ADDED - When the Crumbbar is in edit mode. Build in Windows autocomplete is now also active.
+ ADDED - Right click on 'Play audio' icon on toolbar will allow you to set volume
+ FIXED - Issue so working folder is set when running a exe from a zip.
+ ADDED - Zip archive will now store LastAccess and Created time for each item when creating zip archive.
+ FIXED - Unpacking will now show that in the title bar of progress dialog
+ FIXED - Progress bar is now shown correct when transfering to/from portable device
+ FIXED - Issue when typing path in commandline field.
+ ADDED - Support for Onedrive for Business  accounts that are connected in the local computer.
+ ADDED - Popupmenu shown when dragging file with Alt, got a new option if files are dropped on an exe. Run exe with drogged files as parameters.
+ FIXED - Option that control if link target should be shown for Symlink/Junction now works for file.
+ ADDED - Option to show error report for only Skipped and Failed files. If error was handled so it was copied/moved. it will not be shown in the error report.
+ FIXED - Change the layout of the CopyTo Dialog. all option in the two columns have swap places.
+ ADDED - Added Column showing onedrive status for files (Experimental. not 100% yet)
+ FIXED - Replace files in zip archive sometimes failed
+ ADDED - 'AllowAsFileProp' Option for MultiScript. And Only script with this option can be connected in the Scriptable columns dialog.
+ FIXED - Icon Option to get associated icon or not. Had no effect. Now it works.
+ FIXED - Delete from zip now update progress bar better
+ FIXED - Delete from zip can now be aborted.
+ ADDED - Pressing Ctrl+O in CopyTo Dialog moves focus to Overwrite options
+ ADDED - Pressing Ctrl+R in CopyTo Dialog moves focus to Protected files options
+ FIXED - Will no longer fetch icon from exe file if the file is in onedrive folder, and file is not synced to local.
+ ADDED - Dialog for 'Compare Folders Advanced' will now remember last used settings
+ ADDED - Support for adding scriptable columns, Let a MultiScript fetch what should be shown in a column in the file list
+ ADDED - MultiScript function "VariableDefined()" that returns 1 if text provided exists as a variable.
+ CHANGE- Major rewrite of error handing of Copy/Move/Delete operations.
+ ADDED - MultiDataViewer is now language aware when doing find. (Can be turned off in option for faster search)
+ ADDED - Opening Zip archive with large number of files is now faster
+ ADDED - Copy/Move/Delete options for auto handling errors
+ ADDED - Copy/Move options for auto handle overwrite options.
+ ADDED - Copy/Move/Delete options for showing error report after operation is done
+ ADDED - Options for Copy/Move/Delete for System/Hidden/ReadOnly options joined to be 1 options for "Protected Files" (instead of 3)
+ ADDED - Support for 64px size thumbnails 
+ ADDED - DataPreview templates can be updated if they are not customized.
+ ADDED - Playing audio file are now shown in status bar
+ ADDED - Play Audio Sample command to menu (Will jump 25% into audio file and play for 15s then stop)
+ ADDED - Play audio will now try to play "mp3,wav,mp4,m4a,avi,mkv,acc,wma,wmv,asf,flac" (some are movies but it will play the audio if possible)
+ ADDED - Play/Stop Audio file icon button to toolbar
+ ADDED - Improvements how playing audio files works and are shown.
+ ADDED - Preview template for audio files can now select to play the audio file
+ FIXED - Unpacking Zip with had a space in the filename just before the ".zip" part. 
+         Failed to unpack since it tried to unpack into a folder of the name, and space at the end is not allowed on Windows.
+ FIXED - Issue when moving tab to other side and the new active tab in the "from" panel was delayed loaded.
+ FIXED - SDK API Cleanup
+ FIXED - 18 Stability fixes</releaseNotes>
+    <tags>MultiCommander commander filemanager file manager explorer dual-panel multi-tabbed</tags>
+    <packageSourceUrl>https://github.com/bibimagic/Mathias_Svensson-MultiCommander</packageSourceUrl>
+    <docsUrl>https://multicommander.com/Docs/WhatIsMultiCommander</docsUrl>
+    <mailingListUrl>https://multicommander.com/contact</mailingListUrl>
+    <bugTrackerUrl>https://multicommander.com/support/issue</bugTrackerUrl>
+  </metadata>
+</package>
