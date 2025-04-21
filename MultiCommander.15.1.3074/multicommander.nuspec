@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>multicommander</id>
+    <version>15.1.0.3074</version>
+    <title>MultiCommander (Install)</title>
+    <authors>Mathias Svensson</authors>
+    <owners>bibimagic</owners>
+    <licenseUrl>https://multicommander.com/Docs/License</licenseUrl>
+    <projectUrl>https://multicommander.com/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/bibimagic/Mathias_Svensson-MultiCommander/MultiCommander.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <summary>Multi Commander is a multi-tabbed file manager and is an alternative to the standard Windows Explorer. It uses the very popular and efficient dual-panel layout.</summary>
+    <description>Multi Commander is a multi-tabbed file manager and is an alternative to the standard Windows Explorer. It uses the very popular and efficient dual-panel layout.
+
+Multi Commander has everything you need in your daily work with files to increase your speed and efficiency.
+
+It has all the standard features that any file manager has, like copy, move, rename, view. But Multi Commander's big strengths are the special features that allow you to accomplish advanced tasks with ease. Tasks such as Auto-unpacking; Auto-sorting; Browsing inside archives; Editing the Windows Registry and accessing FTP; Searching for and Viewing files and pictures. There is also powerful, built-in Scripting support that allows you automate many tasks and expand its functionality. It allows you to do everything from the keyboard using shortcuts so that you can work quickly and efficiently.</description>
+    <copyright>Copyright 2025 by Mathias Svensson, Sweden - All rights reserved. (v2.2)</copyright>
+    <releaseNotes>v15.0 ( Build 3072 ) - 2025-02-09
+
+  65+ Changes
+
+  ADDED - New extension for SFTP/SCP (Files over SSH)
+  ADDED - Added support for the 'Everything' search tool. It can be now used to always show folder size. (Turn on in Explorer Panel settings)
+          - Everything must have enabled the setting : "Index Folder Size"
+  ADDED - TabSession can now be accessed from the toolbar If you have any tab sessions defined
+  ADDED - Checksum tool now support .sha,.sha1, .sha256, .sha512 files to verify and create
+  ADDED - During Inline Rename - If you press Ctrl+. (Dot) it will replace all dot with space (except if the dot is around numbers eg "My.File.v3.5 => "My File v3.5") 
+  ADDED - During Inline Rename - If you press Ctrl+Shift+. (Dot) it will replace all dot with space
+  ADDED - During Inline Rename - If you press Ctrl+W it will captalize all words in the filename
+  ADDED - MC will set enviroment variables for the MC EXE and Path and more. So all programs MC starts will see this enviroments variables.
+  REMOVE- Removed duplicated command for FindFiles.
+  FIXED - Shortcuts for 'FindFiles' now show assigned hotkey in tooltop and menu
+  FIXED - FTP - Will now delete target file instead of trying to overwrite if it already exists.
+  FIXED - FTP - Better error message if server blocked upload of file with error 533 (not allowed)
+  FIXED - MultiDataViewer will remember open files in RecoveryRestart
+  FIXED - MultiDataViewer - Possible to Copy selected text with Ctrl+C from Highlight and Find edit boxes again. 
+  FIXED - Updated 3rd party Zip library, Now empty folders and empty zip files are handled correctly again.
+  FIXED - 15+ Stability issues</releaseNotes>
+    <tags>MultiCommander commander filemanager file manager explorer dual-panel multi-tabbed</tags>
+    <packageSourceUrl>https://github.com/bibimagic/Mathias_Svensson-MultiCommander</packageSourceUrl>
+    <docsUrl>https://multicommander.com/Docs/WhatIsMultiCommander</docsUrl>
+    <mailingListUrl>https://multicommander.com/contact</mailingListUrl>
+    <bugTrackerUrl>https://multicommander.com/support/issue</bugTrackerUrl>
+  </metadata>
+</package>

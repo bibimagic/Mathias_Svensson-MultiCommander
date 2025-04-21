@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>multicommander</id>
+    <version>15.4.0.3088</version>
+    <title>MultiCommander (Install)</title>
+    <authors>Mathias Svensson</authors>
+    <owners>bibimagic</owners>
+    <licenseUrl>https://multicommander.com/Docs/License</licenseUrl>
+    <projectUrl>https://multicommander.com/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/bibimagic/Mathias_Svensson-MultiCommander/MultiCommander.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <summary>Multi Commander is a multi-tabbed file manager and is an alternative to the standard Windows Explorer. It uses the very popular and efficient dual-panel layout.</summary>
+    <description>Multi Commander is a multi-tabbed file manager and is an alternative to the standard Windows Explorer. It uses the very popular and efficient dual-panel layout.
+
+Multi Commander has everything you need in your daily work with files to increase your speed and efficiency.
+
+It has all the standard features that any file manager has, like copy, move, rename, view. But Multi Commander's big strengths are the special features that allow you to accomplish advanced tasks with ease. Tasks such as Auto-unpacking; Auto-sorting; Browsing inside archives; Editing the Windows Registry and accessing FTP; Searching for and Viewing files and pictures. There is also powerful, built-in Scripting support that allows you automate many tasks and expand its functionality. It allows you to do everything from the keyboard using shortcuts so that you can work quickly and efficiently.</description>
+    <copyright>Copyright 2025 by Mathias Svensson, Sweden - All rights reserved. (v2.2)</copyright>
+    <releaseNotes>v15.4 ( Build 3086 ) - 2025-04-17
+
+  CHANGE- Configuration change for the Extra confirmation box before COPY/MOVE/DELETE, If you enabled this. You need to enable it again
+  FIXED - ShellNew menu item icons are down with correct background for dark mode
+  ADDED - Improved file system scanning speed of previously scanned folder if there are more then 10.000 items in a folder
+  ADDED - FindFiles now remember previous Find File Content text used.
+  FIXED - 5 Stability issues</releaseNotes>
+    <tags>MultiCommander Totalcommander filemanager file manager explorer dual-panel multi-tabbed</tags>
+    <packageSourceUrl>https://github.com/bibimagic/Mathias_Svensson-MultiCommander</packageSourceUrl>
+    <docsUrl>https://multicommander.com/Docs/WhatIsMultiCommander</docsUrl>
+    <mailingListUrl>https://multicommander.com/contact</mailingListUrl>
+    <bugTrackerUrl>https://multicommander.com/support/issue</bugTrackerUrl>
+  </metadata>
+</package>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>multicommander</id>
+    <version>15.2.0.3077</version>
+    <title>MultiCommander (Install)</title>
+    <authors>Mathias Svensson</authors>
+    <owners>bibimagic</owners>
+    <licenseUrl>https://multicommander.com/Docs/License</licenseUrl>
+    <projectUrl>https://multicommander.com/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/bibimagic/Mathias_Svensson-MultiCommander/MultiCommander.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <summary>Multi Commander is a multi-tabbed file manager and is an alternative to the standard Windows Explorer. It uses the very popular and efficient dual-panel layout.</summary>
+    <description>Multi Commander is a multi-tabbed file manager and is an alternative to the standard Windows Explorer. It uses the very popular and efficient dual-panel layout.
+
+Multi Commander has everything you need in your daily work with files to increase your speed and efficiency.
+
+It has all the standard features that any file manager has, like copy, move, rename, view. But Multi Commander's big strengths are the special features that allow you to accomplish advanced tasks with ease. Tasks such as Auto-unpacking; Auto-sorting; Browsing inside archives; Editing the Windows Registry and accessing FTP; Searching for and Viewing files and pictures. There is also powerful, built-in Scripting support that allows you automate many tasks and expand its functionality. It allows you to do everything from the keyboard using shortcuts so that you can work quickly and efficiently.</description>
+    <copyright>Copyright 2025 by Mathias Svensson, Sweden - All rights reserved. (v2.2)</copyright>
+    <releaseNotes>v15.2 ( Build 3077 ) - 2025-03-18
+
+  FIXED - When copy a file that already exists, and selecting to rename it. But pressing cancel in rename dialog. The File Already exists dialog is shown again, instead of an error
+  FIXED - FSSFTP all icon sizes for device icon are added. 
+  FIXED - MultiDataViewer searching backwards and then forwards will not go directly to next match. 
+  FIXED - Pressing Shift+F3 in MultiDataViewer will search backwards
+  FIXED - Clicking on ".." on virtual device that points to root of device now works again.
+  FIXED - Handling error when trying to remove attribute  before overwriting file. but fails because of permission denied.
+  FIXED - 3 Stability issues</releaseNotes>
+    <tags>MultiCommander commander filemanager file manager explorer dual-panel multi-tabbed</tags>
+    <packageSourceUrl>https://github.com/bibimagic/Mathias_Svensson-MultiCommander</packageSourceUrl>
+    <docsUrl>https://multicommander.com/Docs/WhatIsMultiCommander</docsUrl>
+    <mailingListUrl>https://multicommander.com/contact</mailingListUrl>
+    <bugTrackerUrl>https://multicommander.com/support/issue</bugTrackerUrl>
+  </metadata>
+</package>
