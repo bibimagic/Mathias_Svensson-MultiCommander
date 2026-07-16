@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>multicommander</id>
+    <version>16.1.0.3195</version>
+    <title>MultiCommander (Install)</title>
+    <authors>Mathias Svensson</authors>
+    <owners>bibimagic</owners>
+    <licenseUrl>https://multicommander.com/Docs/License</licenseUrl>
+    <projectUrl>https://multicommander.com/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/bibimagic/Mathias_Svensson-MultiCommander/MultiCommander.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <summary>Multi Commander is a multi-tabbed file manager and is an alternative to the standard Windows Explorer. It uses the very popular and efficient dual-panel layout.</summary>
+    <description>Multi Commander has everything you need in your daily work with files to increase your speed and efficiency.
+
+It has all the standard features that any file manager has, like copy, move, rename, view. But Multi Commander's big strengths are the special features that allow you to accomplish advanced tasks with ease. Tasks such as Auto-unpacking; Auto-sorting; Browsing inside archives; Editing the Windows Registry and accessing FTP; Searching for and Viewing files and pictures. There is also powerful, built-in Scripting support that allows you automate many tasks and expand its functionality. It allows you to do everything from the keyboard using shortcuts so that you can work quickly and efficiently.</description>
+    <copyright>Copyright 2025 by Mathias Svensson, Sweden - All rights reserved. (v2.2)</copyright>
+    <releaseNotes>v16.1 RELEASE (Build 3195) - 2026-07-15
+
+  FIXED - RecycleBin did not always show folder size if folder was sized.
+  FIXED - Minor rare issues with Tar.Gz files
+  FIXED - Error handling improved in FS-FTP
+  FIXED - Error handling improved in PictureTools
+  FIXED - Deleting protected files was ask about all files even if DeleteAll option was selected
+  FIXED - Attribute +a was added some when files was copied
+  FIXED - Error handling of FileOperation Move on same device.
+  FIXED - Timestamp not set when moving files and overwriting existing files.
+  FIXED - Xml config files can now be read from path containing non-ASCII characters again.
+  FIXED - Abort in Delete progress dialog now works again.
+  ADDED - 'Create New File' got its own command and Create and Edit will now edit the file again if 1 file is created.
+  FIXED - 16+ stability issues</releaseNotes>
+    <tags>MultiCommander Totalcommander filemanager file manager explorer dual-panel multi-tabbed</tags>
+    <packageSourceUrl>https://github.com/bibimagic/Mathias_Svensson-MultiCommander</packageSourceUrl>
+    <docsUrl>https://multicommander.com/Docs/WhatIsMultiCommander</docsUrl>
+    <mailingListUrl>https://multicommander.com/contact</mailingListUrl>
+    <bugTrackerUrl>https://multicommander.com/support/issue</bugTrackerUrl>
+  </metadata>
+</package>
