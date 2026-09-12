@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>multicommander</id>
+    <version>16.2.0.3211</version>
+    <title>MultiCommander (Install)</title>
+    <authors>Mathias Svensson</authors>
+    <owners>bibimagic</owners>
+    <licenseUrl>https://multicommander.com/Docs/License</licenseUrl>
+    <projectUrl>https://multicommander.com/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/bibimagic/Mathias_Svensson-MultiCommander/MultiCommander.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <summary>Multi Commander is a multi-tabbed file manager and is an alternative to the standard Windows Explorer. It uses the very popular and efficient dual-panel layout.</summary>
+    <description>Multi Commander has everything you need in your daily work with files to increase your speed and efficiency.
+
+It has all the standard features that any file manager has, like copy, move, rename, view. But Multi Commander's big strengths are the special features that allow you to accomplish advanced tasks with ease. Tasks such as Auto-unpacking; Auto-sorting; Browsing inside archives; Editing the Windows Registry and accessing FTP; Searching for and Viewing files and pictures. There is also powerful, built-in Scripting support that allows you automate many tasks and expand its functionality. It allows you to do everything from the keyboard using shortcuts so that you can work quickly and efficiently.</description>
+    <copyright>Copyright 2025 by Mathias Svensson, Sweden - All rights reserved. (v2.2)</copyright>
+    <releaseNotes>v16.2 RELEASE (Build 3211) - 2026-08-29
+
+  FIXED - Missing updated language files.
+  FIXED - 2 Stability issues
+ 
+ v16.2 RELEASE (Build 3210) - 2026-08-28
+
+  FIXED - Packing folders with the 7-Zip extension failed with "Operation not supported".
+  FIXED - Issue with Inactive/Active tab colors was not set correctly when  NOT solid color was used.
+  FIXED - Crash issue with SFTP and whyen creating folders
+  FIXED - Crash issue when new files was added and removed almost directly again.
+  FIXED - Duplicate Quick Favorites when opening the Favorites window
+  FIXED - Tip Of the Day #29 is now shown again
+  FIXED - 4+ Stability issuesd
+
+ v16.2 RELEASE (Build 3205) - 2026-08-19
+
+  FIXED - Password-protected ZIP extraction failed even after entering the correct password.
+  FIXED - Crash when aborting archive extraction.
+  FIXED - Find Files did not handle volume root paths correctly.
+  FIXED - Crash in button editor when opening User Defined Commands dialog.
+  FIXED - File operation crash when confirmation dialog was declined, and removed 10s wait timeout for the confirm dialog.
+  FIXED - Startup probing of device will now log more details when probing takes long time.
+  FIXED - Filename filtering did not respect language settings.
+  FIXED - 10+ Stability issues</releaseNotes>
+    <tags>MultiCommander Totalcommander filemanager file manager explorer dual-panel multi-tabbed</tags>
+    <packageSourceUrl>https://github.com/bibimagic/Mathias_Svensson-MultiCommander</packageSourceUrl>
+    <docsUrl>https://multicommander.com/Docs/WhatIsMultiCommander</docsUrl>
+    <mailingListUrl>https://multicommander.com/contact</mailingListUrl>
+    <bugTrackerUrl>https://multicommander.com/support/issue</bugTrackerUrl>
+  </metadata>
+</package>
